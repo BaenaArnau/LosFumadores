@@ -18,7 +18,7 @@ class Fumador extends Thread {
 
     public void fumar() throws InterruptedException {
         System.out.println(Fumador.super.getName() + " se pone a fumar.");
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         System.out.println(Fumador.super.getName() + " ha terminado de fumar.");
     }
 
