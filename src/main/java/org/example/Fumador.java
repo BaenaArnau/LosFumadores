@@ -32,6 +32,8 @@ class Fumador extends Thread {
                 semMesa.release();
                 semProveedor.release();
                 fumar();
+                semFumador.release();
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
