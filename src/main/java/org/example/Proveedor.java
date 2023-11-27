@@ -15,7 +15,7 @@ class Proveedor extends Thread {
 
     public void colocarIngredientes() throws InterruptedException {
         System.out.println("El proveedor coloca ingredientes en la mesa.");
-        Thread.sleep(1000); // Simula el tiempo que lleva colocar ingredientes.
+        Thread.sleep(1000);
     }
 
     @Override
